@@ -1,0 +1,12 @@
+[submodule "ngodavidhuy-reservations"]
+	path = ngodavidhuy-reservations
+	url = https://github.com/lorem-yelpsum/ngodavidhuy-reservations.git
+[submodule "e553y-reviews"]
+	path = e553y-reviews
+	url = https://github.com/lorem-yelpsum/e553y-reviews.git
+[submodule "photo-gallery"]
+	path = photo-gallery
+	url = https://github.com/lorem-yelpsum/photo-gallery.git
+[submodule "header"]
+	path = header
+	url = https://github.com/lorem-yelpsum/header.git

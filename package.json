@@ -4,6 +4,7 @@
   "description": "prox server for lorem-yelpsum",
   "main": "proxy/server.js",
   "scripts": {
+    "server-start": "nodemon proxy/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

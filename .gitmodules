@@ -7,6 +7,3 @@
 [submodule "photo-gallery"]
 	path = photo-gallery
 	url = https://github.com/lorem-yelpsum/photo-gallery.git
-[submodule "header"]
-	path = header
-	url = https://github.com/lorem-yelpsum/header.git

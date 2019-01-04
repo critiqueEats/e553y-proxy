@@ -1,11 +1,14 @@
 const express = require('express');
 const template = require('./template');
 const morgan = require('morgan');
+const path = require('path');
 
 const app = express();
 app.use(morgan('dev'));
 
-app.get('/:restaurantId', (req, res)=> {
+app.use( express.static(path.join(__dirname, 'public')));
+
+app.get('/restaurants/:restaurantId', (req, res)=> {
     const restaurantId = req.params.restaurantId;
     res.status(200);
     res.send(template(restaurantId));

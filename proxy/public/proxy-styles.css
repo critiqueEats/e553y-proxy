@@ -1,0 +1,19 @@
+.jumbotron {
+    display: flex;
+}
+
+.content {    
+    display: flex;
+    justify-content: center;
+}
+
+.photos {
+    position: relative;
+    left: -70em;
+    top: 14em;
+}
+
+.body {
+    display: flex;
+}
+

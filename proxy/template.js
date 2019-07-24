@@ -18,11 +18,15 @@ module.exports = (restaurantId) => (
         <div id="sidebar"></div>
       </div>
      </div>
-     <script type="text/javascript" src="http://127.0.0.1:3003/bundle.js"></script>
-     <script type="text/javascript" src="http://127.0.0.1:3001/bundle.js"></script>
-     <script type="text/javascript" src="http://127.0.0.1:3005/bundle.js"></script>
-     <script type="text/javascript" src="http://127.0.0.1:5002/bundle.js"></script>
+     <script type="text/javascript" src="http://3.86.60.169/bundle.js"></script>
+     <script type="text/javascript" src="http://34.205.16.26/bundle.js"></script>
+     <script type="text/javascript" src="http://52.90.5.245/bundle.js"></script>
+     <script type="text/javascript" src="http://13.59.28.18/bundle.js"></script>
      <script>
+     ReactDOM.render(
+     React.createElement(Reviews, {restaurantId: ${restaurantId}}, null),
+     document.getElementById("reviews")
+     )
      ReactDOM.render(
        React.createElement(Gallery, {restaurantId: ${restaurantId}}, null),
        document.getElementById("gallery")
@@ -31,10 +35,6 @@ module.exports = (restaurantId) => (
          React.createElement(Sidebar, {restaurantId: ${restaurantId}}, null),
          document.getElementById("sidebar")
          )
-      ReactDOM.render(
-      React.createElement(Reviews, {restaurantId: ${restaurantId}}, null),
-      document.getElementById("reviews")
-      )
       ReactDOM.render(
         React.createElement(Header, {restaurantId: ${restaurantId}}, null),
         document.getElementById("header")
